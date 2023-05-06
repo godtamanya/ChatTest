@@ -3,7 +3,7 @@ import openai
 
 openai.api_key = st.secrets.OpenAIAPI.openai_api_key
 
-system_prompt = st.secrets.OpenAIPrompt.openai_api_key
+system_prompt = st.secrets.OpenAIPrompt.system_prompt_string
 
 
 # st.session_stateを使いメッセージのやりとりを保存
